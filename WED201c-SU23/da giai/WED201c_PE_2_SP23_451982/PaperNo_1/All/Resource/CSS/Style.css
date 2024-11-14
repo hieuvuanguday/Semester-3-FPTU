@@ -1,0 +1,161 @@
+/* reset CSS */
+*{
+    margin: 0;
+
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu li a {
+    text-decoration: none;
+    color: rgb(26, 143, 175);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header_logo img {
+    width: 50%;
+}
+
+.header_search button {
+    background-color: orange;
+    color: white;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.best_seller {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.best_seller h1 {
+    color: red;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.img,
+.right_content {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.img img {
+    width: 70%;
+}
+
+.right_content h2 {
+    color: rgb(28, 110, 198);
+}
+
+.right_content span {
+    color: orange;
+}
+
+.gift {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gift>div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.gift>div img {
+    width: 50%;
+}
+
+.gift>div h2 {
+    font-size: 16px;
+}
+
+.sale_off {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+.sale_off h1 {
+    width: 100%;
+    color: red;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+.product img {
+    width: 100%;
+    height: 85%;
+}
+
+.product>div {
+    width: 100%;
+    height: 15%;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.productname {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    background-color: orange;
+}
+
+.footer_content {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.footer_content p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer_content h5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

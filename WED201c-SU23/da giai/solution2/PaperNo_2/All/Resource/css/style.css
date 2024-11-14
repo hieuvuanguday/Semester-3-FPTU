@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+}
+
+.header p{
+    font-size: 35px;
+    font-style: italic;
+    color: green;
+}
+
+.ul-nav{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.li-nav a{
+    margin-left: -65px;
+    text-decoration: none;
+    color: aliceblue;
+    font-style: inherit;
+}
+
+.li-nav{
+    margin-left: -10px;
+    list-style: none;
+    color: aliceblue;
+}
+
+.banner{
+    display: flex;
+}
+
+.product {
+    display: flex;
+}
+
+.des li{
+    color: aqua;
+    
+}
+
+.footer{
+    color: aliceblue;
+    text-align: center;
+}
+

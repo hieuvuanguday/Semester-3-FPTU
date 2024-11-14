@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header_nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header_nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin: 0 20px;
+}
+
+.header_logo {
+    margin: 0 auto;
+    width: 5%;
+}
+
+.header_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header_search button {
+    color: white;
+    background-color: black;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    margin-top: 0;
+    height: auto;
+}
+
+.list {
+    width: 20%;
+    height: auto;
+    background-color: rgb(202, 190, 190);
+    margin-top: 0;
+}
+
+.sub_list {
+    margin-bottom: 20px;
+}
+
+.sub_list h3 {
+    width: 100%;
+    color: white;
+    background-color: rgb(237, 96, 26);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sub_list li a {
+    margin-bottom: 10px;
+    list-style: circle;
+}
+
+.best_seller {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.best_seller h1 {
+    width: 100%;
+    color: rgb(70, 173, 233);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ 
+.product {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.product img {
+    width: 30%;
+    height: auto;
+}
+
+.right_side {
+    width: 70%;
+    margin-left: 5px;
+}
+
+.right_side h3 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right_side p {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    margin: 10px 20px;
+    box-shadow: 8px 9px 10px gray;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.category img {
+    width: 100%;
+    height: 60%;
+}
+
+.category h4 {
+    width: 100%;
+    text-align: center;
+}
+
+.category p {
+    width: 100%;
+    text-align: center;
+}
+
+.cost {
+    color: red;
+}
+
+.category del {
+    color: gray;
+}
+
+.footer_content {
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.test {
+    border: solid;
+    padding: 10px 20px 30px 40px;
+}
